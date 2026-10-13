@@ -1,0 +1,28 @@
+### Build ###
+target/
+out/
+!.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+### VS Code ###
+.vscode/
+
+### Local tooling ###
+.claude/
+
+### OS ###
+.DS_Store
+Thumbs.db
