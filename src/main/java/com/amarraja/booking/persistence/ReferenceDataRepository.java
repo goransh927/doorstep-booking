@@ -15,7 +15,6 @@ import java.util.stream.Collectors;
 import org.springframework.jdbc.core.simple.JdbcClient;
 import org.springframework.stereotype.Repository;
 
-/** Read access to services, zones and technicians. These are seeded and never written by the API. */
 @Repository
 public class ReferenceDataRepository {
 

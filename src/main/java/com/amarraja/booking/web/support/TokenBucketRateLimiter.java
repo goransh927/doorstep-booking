@@ -5,10 +5,6 @@ import java.time.Duration;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * In-memory token bucket per client key. Per-instance only: with several replicas each one
- * enforces its own limit, which is fine as abuse protection but not as a global quota.
- */
 public class TokenBucketRateLimiter {
 
     private static final int MAX_TRACKED_CLIENTS = 10_000;

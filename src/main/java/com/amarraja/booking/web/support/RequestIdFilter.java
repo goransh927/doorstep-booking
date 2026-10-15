@@ -13,10 +13,6 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-/**
- * Tags every request with an id (the caller's X-Request-Id if sane, else a new UUID), puts it in
- * the logging MDC and echoes it back, so a log line, an error body and a client report line up.
- */
 @Component
 @Order(Ordered.HIGHEST_PRECEDENCE)
 public class RequestIdFilter extends OncePerRequestFilter {

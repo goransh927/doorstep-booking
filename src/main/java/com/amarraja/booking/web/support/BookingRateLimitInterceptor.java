@@ -11,7 +11,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.servlet.HandlerInterceptor;
 
-/** Limits POST /bookings per client IP and answers 429 with the standard error body. */
 public class BookingRateLimitInterceptor implements HandlerInterceptor {
 
     private final TokenBucketRateLimiter limiter;

@@ -5,7 +5,6 @@ import java.time.LocalDate;
 import java.time.OffsetDateTime;
 import java.util.List;
 
-/** Response bodies. All timestamps are rendered in IST (+05:30). */
 public final class Responses {
 
     private Responses() {

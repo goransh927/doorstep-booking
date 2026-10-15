@@ -2,10 +2,6 @@ package com.amarraja.booking.service;
 
 import org.springframework.http.HttpStatus;
 
-/**
- * A failure the client can act on. Each carries a stable machine-readable {@code code}
- * alongside the HTTP status; the message is for humans.
- */
 public class ApiException extends RuntimeException {
 
     private final HttpStatus status;

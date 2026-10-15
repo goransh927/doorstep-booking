@@ -1,5 +1,3 @@
--- btree_gist lets a GiST index combine "=" on a scalar column with "&&" on a range,
--- which is what the no-double-booking exclusion constraint below needs.
 CREATE EXTENSION IF NOT EXISTS btree_gist;
 
 CREATE TABLE service_type (

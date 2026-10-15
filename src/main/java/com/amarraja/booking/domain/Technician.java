@@ -4,9 +4,6 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.Set;
 
-/**
- * A technician works a single daily shift in local (IST) time. Shifts never cross midnight.
- */
 public record Technician(long id, String name, long zoneId, Set<Skill> skills,
                          LocalTime shiftStart, LocalTime shiftEnd) {
 

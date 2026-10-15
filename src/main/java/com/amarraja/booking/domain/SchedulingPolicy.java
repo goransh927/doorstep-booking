@@ -12,10 +12,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 
-/**
- * All booking rules in one place, as pure functions over in-memory data. Nothing here touches
- * the database or the clock, so every rule is unit-testable; services feed it data and "now".
- */
 public class SchedulingPolicy {
 
     private final ZoneId zone;

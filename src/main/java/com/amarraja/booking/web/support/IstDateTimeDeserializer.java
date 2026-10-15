@@ -9,10 +9,6 @@ import java.time.OffsetDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeParseException;
 
-/**
- * Accepts ISO-8601 date-times with an offset ({@code 2026-10-14T10:00:00+05:30}) or without one
- * ({@code 2026-10-14T10:00}); the latter is read as IST, the single time zone of the service.
- */
 public class IstDateTimeDeserializer extends StdDeserializer<OffsetDateTime> {
 
     public static final ZoneId IST = ZoneId.of("Asia/Kolkata");

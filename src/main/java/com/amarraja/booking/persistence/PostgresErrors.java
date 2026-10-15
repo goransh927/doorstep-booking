@@ -4,7 +4,6 @@ import java.sql.SQLException;
 import org.postgresql.util.PSQLException;
 import org.postgresql.util.ServerErrorMessage;
 
-/** Classifies constraint violations by SQLSTATE and constraint name, never by message text. */
 public final class PostgresErrors {
 
     private static final String UNIQUE_VIOLATION = "23505";
