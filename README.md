@@ -170,7 +170,7 @@ in every log line and in error bodies.
    `(technician_id, tstzrange(start_time, blocked_until))` for non-cancelled rows makes an overlap
    impossible to commit, whatever the code does.
 
-Details, trade-offs and where it breaks: [DESIGN.md](DESIGN.md#1-concurrency-choice).
+Details, trade-offs and where it breaks: [DESIGN.md](DESIGN.md#1-concurrency).
 
 ---
 
